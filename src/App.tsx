@@ -49,7 +49,7 @@ function App() {
 
   return (
     <>
-      <div className="font-display relative h-screen py-8">
+      <div className="font-display relative lg:h-screen h-[95vh] py-8">
         <div className="lg:w-1/2 w-11/12 m-auto flex flex-col lg:gap-16 gap-8">
           <Header score={score} />
           {!userChoice && !computerChoice ? (
